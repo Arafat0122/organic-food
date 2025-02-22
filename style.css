@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background-color: #f7f7f7;
+    padding: 0 30px;
+
+}
+
+h6{
+    margin: 0;
+}
+
+.upper-left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.upper-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.vl{
+    border-left: 1px solid gray;
+    height: 50px;
+}
+
+button{
+    border-style: none;
+    background-color: transparent;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
